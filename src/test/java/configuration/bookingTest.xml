@@ -1,0 +1,25 @@
+<suite name="Booking APIs">
+    <test name="auth">
+        <classes>
+            <class name = "features.booker.auth.CreateTokenTest" />
+
+        </classes>
+    </test>
+
+    <test name="booker">
+        <classes>
+            <class name = "features.booker.booking.CreateBookingTest" />
+            <class name = "features.booker.booking.GetBookingIdsTest" />
+            <class name = "features.booker.booking.GetBookingTest" />
+            <class name = "features.booker.booking.UpdateBooking" />
+
+        </classes>
+    </test>
+
+    <!--<test name="ping">-->
+        <!--<classes>-->
+            <!--<class name = "" />-->
+
+        <!--</classes>-->
+    <!--</test>-->
+</suite>

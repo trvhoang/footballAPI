@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.399 s <<< FAILURE! - in TestSuite
+sumTest(test.java.CalculationTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected [11] but found [10]
+	at test.java.CalculationTest.sumTest(CalculationTest.java:30)
+

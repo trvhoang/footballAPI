@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [calculator]">
+  <test thread-count="5" verbose="0" name="simple test(failed)">
+    <classes>
+      <class name="test.java.CalculationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="sumTest" invocation-numbers="3"/>
+          <include name="setup2"/>
+        </methods>
+      </class> <!-- test.java.CalculationTest -->
+    </classes>
+  </test> <!-- simple test(failed) -->
+</suite> <!-- Failed suite [calculator] -->
